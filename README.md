@@ -42,3 +42,7 @@ bitcoin.payments.p2wpkh({ pubkey: node.publicKey, network })
 Resultado: endereços no formato:
 tb1qxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 que são aceitos normalmente pelos faucets de Bitcoin testnet.
+
+Usamos o site: https://mempool.space/testnet para conferir a carteira criada
+https://bitcoinfaucet.uo1.net/ para enviar Bitcoin testnet para a carteira
+E o Electron para fazer as transações de envio para outra carteira gerada.
